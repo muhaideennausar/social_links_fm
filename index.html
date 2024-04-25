@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Links</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Inter", sans-serif;
+      color: hsl(0, 0%, 100%);
+      font-size: 18px;
+    }
+    body{
+      height: 100vh;
+      width: 100%;
+      margin: auto;
+      background-color: hsl(0, 0%, 8%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container{
+      background-color: hsl(0, 0%, 12%);
+      padding: 25px 50px;
+      width: 400px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile-picture{
+      margin-top: 15px;
+      width: 100px;
+      border-radius: 50%;
+    }
+    .details{
+      text-align: center;
+      margin: 15px 0;
+    }
+    .details * {
+      margin: 10px 0;
+    }
+    .details p{
+      font-size: .7em;
+      color: hsl(75, 94%, 57%);
+      font-weight: 600;
+    }
+    .details h1{
+      font-size: 1.2em;
+      font-weight: 700;
+    }
+    .tag-line{
+      margin: 7px 0;
+      font-weight: 400;
+      font-size: .8em;
+      opacity: .8;
+    }
+    .social-links{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 15px 0;
+    }
+    .social-links a {
+      background-color: hsl(0, 0%, 20%);
+      margin: 10px 0;
+      padding: 15px 0;
+      width: 100%;
+      text-align: center;
+      border-radius: 7px;
+      font-size: .8em;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .social-links a:hover{
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 12%);
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="assets/images/avatar-jessica.jpeg" alt="Jessicas Profile Picture" class="profile-picture">
+    <div class="details">
+      <h1>Jessica Randall</h1>
+      <p>London, United Kingdom</p>
+    </div>
+    <p class="tag-line">"Front-end developer and avid reader."</p>
+    <div class="social-links">
+      <a href="https://www.github.com" target="_blank">GitHub</a>
+      <a href="https://www.frontendmentor.io" target="_blank">Frontend Mentor</a>
+      <a href="https://in.linkedin.com" target="_blank">LinkedIn</a>
+      <a href="https://www.twitter.com" target="_blank">Twitter</a>
+      <a href="https://www.instagram.com" target="_blank">Instagram</a>
+    </div>
+  </div>
+</body>
+</html>
