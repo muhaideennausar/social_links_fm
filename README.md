@@ -10,8 +10,7 @@ This is a solution to the [Social Links Profile](https://www.frontendmentor.io/c
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/AmiraxHamza/Frontend-Mentor---Results-summary-component-solution)
-- Live Site URL: [Live Site](https://harrison-peace-markdown-editor.netlify.app/)
+- Live Site URL: [Live Site](https://social-links-profile-phi-flax.vercel.app/)
 
 ### Built with
 
